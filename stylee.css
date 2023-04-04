@@ -279,6 +279,27 @@ header{
 }
 
 
+/* Styles for desktop devices */
+body {
+  font-size: 16px;
+}
+
+/* Styles for tablet devices */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Styles for mobile devices */
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+
+
 
 
 .header-left {
