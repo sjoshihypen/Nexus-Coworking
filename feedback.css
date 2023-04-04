@@ -14,6 +14,7 @@
   --border-hvr: #3b70ff;
 }
 
+
 * {
   margin: 0;
   padding: 0;
@@ -28,6 +29,7 @@ body {
   background: var(--bg-clr);
   color: var(--text-clr);
   font-size: 13px;
+  background-color: #000;
 }
 
 .wrapper{
