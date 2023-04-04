@@ -213,8 +213,31 @@ primary-button:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
 }
+
+.header-right{
+  background-image: url(https://media.istockphoto.com/id/1441418762/photo/lavender-field-close-up-flower.jpg?b=1&s=170667a&w=0&k=20&c=TvGc1rkUlhiw_55y6g1WJm0LVLlvOoDni2nhAsyWk8Y=);
+  width: 300px;
+  height: 300px;
+  background-size : 100% 100%;
+  animation: slider 25s infinite linear;
+}
+
+@keyframes slider{
+  10%{
+      background-image: url(https://www.paytimepayroll.com/hubfs/Imported_Blog_Media/Stock-Photo-Home-Workspace.jpg);
+  }
+  25%{
+      background-image: url(https://www.wework.com/ideas/wp-content/uploads/sites/4/2021/07/20190731_WeWork_SonyCenter_Berlin_008_v1-1120x630.jpg);
+  }
+  50%{
+      background-image: url(https://coworker.imgix.net/photos/united-states/florida/miami/wework-wynwood-garage/main.jpg?w=1200&h=630&q=90&auto=format,compress&fit=crop&mark=/template/img/wm_icon.png&markscale=5&markalign=center,middle);
+  }
+  75%{
+      background-image: url(https://image.archify.com/blog/l/73zpaujs.jpg);
+  }
+}
+
 
 .hero-image {
   position: absolute;
