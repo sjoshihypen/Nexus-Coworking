@@ -216,7 +216,7 @@ primary-button:hover{
 }
 
 .header-right{
-  background-image: url(https://media.istockphoto.com/id/1441418762/photo/lavender-field-close-up-flower.jpg?b=1&s=170667a&w=0&k=20&c=TvGc1rkUlhiw_55y6g1WJm0LVLlvOoDni2nhAsyWk8Y=);
+  background-image: url(https://images.business.com/app/uploads/2022/03/23020259/boss_Ridofranz_getty-3.jpg);
   width: 300px;
   height: 300px;
   background-size : 100% 100%;
@@ -254,42 +254,6 @@ primary-button:hover{
   opacity: 1;
 }
 
-
-
-/* .main-nav{
-    margin-top: 20px;
-    justify-content: space-between;
-}
-
-.company-logo img{
-    width: 200px;
-} */
-
-
-/* .nav-links {
-    flex-basis: 730px;
-    color: white; /* Set text color to white */
-  /* }
-  
-  .nav-links ul {
-    justify-content: end;
-    gap: 15px;
-  }
-  
-  .nav-links ul li a {
-    color: white; /* Set text color to white for links */
-  /* } */ */ */
-
-
-/* .nav-links{
-    flex-basis: 730px;
-}
-
-.nav-links ul{
-    justify-content: end;
-    gap: 15px;
-} */
-
 /*  header section */
 
 header{
@@ -302,46 +266,17 @@ header{
 }
 
 
-/* Styles for desktop devices */
-body {
-  font-size: 16px;
-}
-
-/* Styles for tablet devices */
-@media (max-width: 768px) {
-  body {
-    font-size: 14px;
-  }
-}
-
-/* Styles for mobile devices */
-@media (max-width: 480px) {
-  body {
-    font-size: 12px;
-  }
-}
-
-
-
-
-
 .header-left {
     max-width: 40vw;
     color: white; /* Set text color to white */
+    font-size: 20px;
   }
   
-  .header-left h1 {
+.header-left h1 {
     max-width: 20px;
     color: white; /* Set text color to white */
   }
 
-/* .header-left{
-    max-width: 40vw;
-}
-
-.header-left h1{
-    max-width: 20px;
-} */
 
 .get-started-btn{
     margin-top: 20px;
@@ -367,12 +302,6 @@ body {
     margin-bottom: 20px;
   }
   
-  
-/* .companies-header{
-    text-align: center;
-    margin-block: 30px;
-    color: var(--primary-text-color);
-} */
 
 .logos {
     /* justify-content: space-between; */
@@ -694,96 +623,5 @@ footer {
   
   footer .copyright {
     text-align: center;
-  }
-  
-
-
-
-  /* chat bot module  */
-  
-  .chatbot {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 300px;
-    height: 400px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    z-index: 9999;
-    display: none;
-    border-radius: 50%;
-    overflow: hidden;
-  }
-  
-  .chatbot-header {
-    background-color: #343a40;
-    color: white;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .chatbot-close-btn {
-    background-color: transparent;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-size: 18px;
-  }
-  
-  .chatbot-body {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .chatbot-messages {
-    flex-grow: 1;
-    padding: 10px;
-    overflow-y: auto;
-  }
-  
-  .chatbot-input {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-  }
-  
-  .chatbot-input input {
-    flex-grow: 1;
-    padding: 5px;
-    border: none;
-    border-bottom: 2px solid #343a40;
-  }
-  
-  .chatbot-input button {
-    background-color: #343a40;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-  }
-  
-  .open-chatbot-btn {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #343a40;
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .chat-icon {
-    font-size: 30px;
   }
   
