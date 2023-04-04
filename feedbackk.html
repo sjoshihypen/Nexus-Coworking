@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="feedbackk.css">
+    <script src="feedbackk.js"></script>
+</head>
+<body>
+    <form id="feedback-form">
+        <fieldset>
+          <legend>Rate Our Service:</legend>
+          <div class="star-rating">
+            <input id="star-5" type="radio" name="rating" value="5">
+            <label for="star-5" title="5 stars">
+              <span class="star">★</span>
+            </label>
+            <input id="star-4" type="radio" name="rating" value="4">
+            <label for="star-4" title="4 stars">
+              <span class="star">★</span>
+            </label>
+            <input id="star-3" type="radio" name="rating" value="3">
+            <label for="star-3" title="3 stars">
+              <span class="star">★</span>
+            </label>
+            <input id="star-2" type="radio" name="rating" value="2">
+            <label for="star-2" title="2 stars">
+              <span class="star">★</span>
+            </label>
+            <input id="star-1" type="radio" name="rating" value="1">
+            <label for="star-1" title="1 star">
+              <span class="star">★</span>
+            </label>
+          </div>
+          <input type="submit" value="Submit">
+        </fieldset>
+      </form>
+      <div class="popup" id="thankyou-msg">
+        <div class="popup-content">
+          <h2>Thank You!</h2>
+          <p>Your feedback has been submitted.</p>
+          <button class="close-btn" onclick="closePopup()">Close</button>
+        </div>
+      </div>
+</body>
+</html>
